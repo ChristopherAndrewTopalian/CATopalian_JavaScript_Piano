@@ -1,4 +1,4 @@
-# Topalian JavaScript Piano
+# CATopalian JavaScript Piano
 A JavaScript piano that is easy to comprehend and well organized
 
 ![screenshot1](src/media/textures/screenshots/001.PNG)

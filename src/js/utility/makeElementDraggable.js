@@ -1,7 +1,8 @@
 // makeElementDraggable.js
 
 // creating event handler for mouse down
-function createMouseDownHandler(element, state) {
+function createMouseDownHandler(element, state)
+{
     return function(e)
     {
         // ignore mouse down events on textarea or input elements
