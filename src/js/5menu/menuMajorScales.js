@@ -8,17 +8,17 @@ function menuMajorScales()
 
     let mainDiv = ce("div");
     mainDiv.id = theId;
-    mainDiv.style.position = "absolute";
-    mainDiv.style.right = 265 +'px';
-    mainDiv.style.top = 200 + 'px';
-    mainDiv.style.width = 150 + 'px';
+    //mainDiv.style.position = "absolute";
+    //mainDiv.style.right = 265 +'px';
+    //mainDiv.style.top = 200 + 'px';
+    mainDiv.style.width = 250 + 'px';
     mainDiv.style.height = '150px';
     mainDiv.style.zIndex = '3';
     mainDiv.style.overflowY = 'scroll';
     mainDiv.style.display = 'flex';
     mainDiv.style.flexDirection = 'column';
     mainDiv.style.resize = 'both';
-    ba(mainDiv);
+    ge('scalesContainer').append(mainDiv);
 
     makeElementDraggable(mainDiv);
 

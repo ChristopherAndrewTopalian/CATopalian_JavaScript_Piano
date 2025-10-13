@@ -4,8 +4,8 @@ function makeTitleOfApp()
 {
     let titleContainer = ce('div');
     titleContainer.style.position = 'absolute';
-    titleContainer.style.right = '10px';
-    titleContainer.style.bottom = '10px';
+    titleContainer.style.right = '7px';
+    titleContainer.style.top = '4px';
     titleContainer.style.zIndex = 1;
     ba(titleContainer);
 
@@ -16,8 +16,11 @@ function makeTitleOfApp()
     titleOfApp.textContent = 'CATopalian JavaScript Piano';
     titleOfApp.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Piano';
     titleOfApp.target = '_blank';
-    titleOfApp.style.fontSize = '17px';
+    titleOfApp.style.fontSize = '14px';
     titleOfApp.style.fontWeight = 'bold';
+    titleOfApp.style.textDecoration = 'none';
+    titleOfApp.style.fontFamily = 'Arial';
+    titleOfApp.style.color = 'rgb(0, 255, 255)';
     titleContainer.append(titleOfApp);
 }
 

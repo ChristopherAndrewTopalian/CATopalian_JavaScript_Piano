@@ -6,17 +6,17 @@ function menuKeyboardControls()
 
     let mainDiv = ce("div");
     mainDiv.id = menuId;
-    mainDiv.style.position = "absolute";
-    mainDiv.style.right = 240 +'px';
-    mainDiv.style.top = 370 + 'px';
+    //mainDiv.style.position = "absolute";
+    //mainDiv.style.right = 240 +'px';
+    //mainDiv.style.top = 370 + 'px';
     mainDiv.style.width = 200 + 'px';
-    mainDiv.style.height = '150px';
+    //mainDiv.style.height = '150px';
     mainDiv.style.zIndex = '3';
     mainDiv.style.overflowY = 'scroll';
     mainDiv.style.display = 'flex';
     mainDiv.style.flexDirection = 'column';
-    mainDiv.style.resize = 'both';
-    ba(mainDiv);
+    //mainDiv.style.resize = 'both';
+    ge('rightContainer').append(mainDiv);
 
     let addListenButton = ce('button');
     addListenButton.textContent = 'Keyboard Controls ON';
@@ -37,6 +37,8 @@ function menuKeyboardControls()
         window.removeEventListener("keydown", keySensor, false);
     };
     mainDiv.append(removeListenButton);
+
+    mainDiv.append(ce('hr'));
 }
 
 function enableKeyboardInput()

@@ -5,10 +5,13 @@ function whenLoaded()
     loadSounds(sounds);
     loadSounds(notes);
 
-    makeTitleOfApp();
+    makeRightContainer();
 
-    menuMajorScales();
-    menuHarmonicMinorScales();
+    makeScalesContainer();
+        menuMajorScales();
+        menuHarmonicMinorScales();
+
+    makePlaySongButton();
     menuKeyboardControls();
 
     //-//
@@ -32,7 +35,9 @@ function whenLoaded()
 
     //-//
 
-    makePlaySongButton();
+    
+
+    makeTitleOfApp();
 }
 
 //----//

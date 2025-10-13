@@ -6,10 +6,10 @@ function makePlaySongButton()
 
     let mainDiv = ce('div');
     mainDiv.id = menuId;
-    mainDiv.style.position = 'absolute';
-    mainDiv.style.right = '0px';
-    mainDiv.style.top = 0 + 'px';
-    ba(mainDiv);
+    //mainDiv.style.position = 'absolute';
+    //mainDiv.style.right = '0px';
+    //mainDiv.style.top = 0 + 'px';
+    ge('rightContainer').append(mainDiv);
 
     //-//
 
@@ -17,6 +17,8 @@ function makePlaySongButton()
     songOneTextbox.type = 'text';
     songOneTextbox.id = 'songOneTextbox';
     songOneTextbox.value = song001;
+    songOneTextbox.style.width = '150px';
+    songOneTextbox.style.height = '30px';
     songOneTextbox.style.fontSize = '20px';
     mainDiv.append(songOneTextbox);
 
@@ -37,8 +39,6 @@ function makePlaySongButton()
 
     //-//
 
-    mainDiv.append(ce('br'));
-    mainDiv.append(ce('br'));
     mainDiv.append(ce('hr'));
 
     //-//
@@ -54,9 +54,6 @@ function makePlaySongButton()
     mainDiv.append(songButton001);
 
     //-//
-
-    mainDiv.append(ce('br'));
-    mainDiv.append(ce('br'));
 
     mainDiv.append(ce('hr'));
 
@@ -84,9 +81,6 @@ function makePlaySongButton()
     mainDiv.append(odeToJoyButton);
 
     //-//
-
-    mainDiv.append(ce('br'));
-    mainDiv.append(ce('br'));
 
     mainDiv.append(ce('hr'));
 }
