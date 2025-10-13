@@ -14,7 +14,7 @@ function menuHarmonicMinorScales()
     mainDiv.style.width = 250 + 'px';
     mainDiv.style.height = '150px';
     mainDiv.style.zIndex = '3';
-    mainDiv.style.overflowY = 'scroll';
+    //mainDiv.style.overflowY = 'scroll';
     mainDiv.style.display = 'flex';
     mainDiv.style.flexDirection = 'column';
     //mainDiv.style.resize = 'both';
