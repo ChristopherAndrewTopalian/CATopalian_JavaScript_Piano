@@ -5,6 +5,8 @@ function whenLoaded()
     loadSounds(sounds);
     loadSounds(notes);
 
+    makeAOOPlayContainer();
+
     makeRightContainer();
 
     makeScalesContainer();
