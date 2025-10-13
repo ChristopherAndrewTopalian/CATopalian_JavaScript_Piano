@@ -3,19 +3,23 @@
 function makeNotes(whichId, whichArray, whichX, whichY, whichOctave)
 {
     let mainDiv = ce('div');
-    mainDiv.style.padding = 5 + 'px';
-    mainDiv.style.marginBottom = 5 + 'px';
+    mainDiv.style.padding = 1 + 'px';
     mainDiv.style.display = 'flex';
     mainDiv.style.flexDirection = 'row';
+    mainDiv.style.gap = '1px';
     ba(mainDiv);
 
     //-//
 
     let subDiv = ce('div');
     subDiv.id = whichId;
-    subDiv.style.width = 400 + 'px';
+    subDiv.style.width = '400px';
     subDiv.style.height = '30px';
     subDiv.style.border = 'solid 1px rgb(0, 200, 200)';
+    subDiv.style.display = 'flex';             // Enable Flexbox
+    subDiv.style.justifyContent = 'center';    // Center horizontally
+    subDiv.style.alignItems = 'center';        // Center vertically
+
     mainDiv.append(subDiv);
 
     //-//

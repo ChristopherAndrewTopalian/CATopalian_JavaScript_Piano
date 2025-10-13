@@ -1,5 +1,12 @@
 // menuHarmonicMinorScales.js
 
+/*
+function makeScaleButtons(whichScale, whichContainer)
+{
+
+}
+*/
+
 function menuHarmonicMinorScales()
 {
     let theId = 'harmonicMinorScales';
