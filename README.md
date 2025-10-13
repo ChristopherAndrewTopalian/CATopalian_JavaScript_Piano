@@ -1,6 +1,8 @@
 # CATopalian JavaScript Piano
 A JavaScript piano that is easy to comprehend and well organized
 
+Video: https://www.youtube.com/watch?v=HHFOHwQNcW8
+
 ![screenshot1](src/media/textures/screenshots/001.PNG)
 
 USE APP: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Piano/CATopalian_JavaScript_Piano.html
