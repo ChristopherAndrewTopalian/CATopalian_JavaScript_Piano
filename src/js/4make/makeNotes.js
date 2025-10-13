@@ -13,7 +13,7 @@ function makeNotes(whichId, whichArray, whichX, whichY, whichOctave)
 
     let subDiv = ce('div');
     subDiv.id = whichId;
-    subDiv.style.width = '375px';
+    subDiv.style.width = '374px';
     subDiv.style.height = '30px';
     subDiv.style.border = 'solid 1px rgb(0, 200, 200)';
     subDiv.style.display = 'flex';             // Enable Flexbox
