@@ -112,7 +112,7 @@ function playSongAooFromTextarea()
 
                 if (noteElement)
                 {
-                    noteElement.click(); // your existing way to play
+                    noteElement.click(); // play
                     noteElement.style.borderColor = 'aqua'; // highlight
                     // keep highlight for the duration
                 }
