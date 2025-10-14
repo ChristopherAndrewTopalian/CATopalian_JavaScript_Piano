@@ -5,7 +5,7 @@ function makeRightContainer()
     let rightContainer = ce('div');
     rightContainer.id = 'rightContainer';
     rightContainer.style.position = 'absolute';
-    rightContainer.style.left = '450px';
+    rightContainer.style.left = '395px';
     rightContainer.style.top = '20px';
     rightContainer.style.display = 'flex';
     rightContainer.style.flexDirection = 'column';

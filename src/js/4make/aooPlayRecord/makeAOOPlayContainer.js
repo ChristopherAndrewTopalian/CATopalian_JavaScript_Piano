@@ -28,7 +28,7 @@ function makeAOOPlayContainer()
     aooTextarea.id = 'aooTextarea';
     aooTextarea.value = JSON.stringify(beethovenOdeToJoyWithDurations);
     aooTextarea.style.width = '400px';
-    aooTextarea.style.height = '100px';
+    aooTextarea.style.height = '50px';
     mainDiv.append(aooTextarea);
 
     //-//

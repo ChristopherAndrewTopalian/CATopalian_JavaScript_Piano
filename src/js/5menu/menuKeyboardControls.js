@@ -9,10 +9,10 @@ function menuKeyboardControls()
     //mainDiv.style.position = "absolute";
     //mainDiv.style.right = 240 +'px';
     //mainDiv.style.top = 370 + 'px';
-    mainDiv.style.width = 200 + 'px';
+    mainDiv.style.width = 180 + 'px';
     //mainDiv.style.height = '150px';
     mainDiv.style.zIndex = '3';
-    mainDiv.style.overflowY = 'scroll';
+    //mainDiv.style.overflowY = 'scroll';
     mainDiv.style.display = 'flex';
     mainDiv.style.flexDirection = 'column';
     //mainDiv.style.resize = 'both';
