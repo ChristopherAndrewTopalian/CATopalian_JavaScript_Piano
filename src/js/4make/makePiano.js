@@ -7,7 +7,7 @@ function makePiano(whichArray)
     naturalContainer.style.border = 'solid 1px rgb(255, 255, 255)';
     naturalContainer.style.position = 'absolute';
     naturalContainer.style.left = '0px';
-    naturalContainer.style.bottom = '-150px';
+    naturalContainer.style.bottom = '-250px';
     naturalContainer.style.display = 'flex';
     naturalContainer.style.flexDirection = 'row';
     naturalContainer.style.overflowX = 'scroll';
@@ -20,7 +20,7 @@ function makePiano(whichArray)
     sharpContainer.style.border = 'solid 1px rgb(255, 255, 255)';
     sharpContainer.style.position = 'absolute';
     sharpContainer.style.left = '0px';
-    sharpContainer.style.bottom = '-100px';
+    sharpContainer.style.bottom = '-200px';
     sharpContainer.style.display = 'flex';
     sharpContainer.style.flexDirection = 'row';
     ba(sharpContainer);
