@@ -9,7 +9,7 @@ function makeAOOPlayContainer()
     aooContainer.style.top = '280px';
     aooContainer.style.border = 'solid 1px rgb(255, 255, 255)';
     aooContainer.style.width = '400px';
-    aooContainer.style.height = '200px';
+    //aooContainer.style.height = '200px';
     ba(aooContainer);
 
     //let menuId = 'menuPlaySong';

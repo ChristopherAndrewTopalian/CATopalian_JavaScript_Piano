@@ -162,6 +162,11 @@ function whenLoaded()
 
     //-//
 
+    // this is the bottom traditional piano layout
+    makePiano(notes);
+
+    //-//
+
     keySensor = function(event)
     {
         whichKeyPressed(event);
