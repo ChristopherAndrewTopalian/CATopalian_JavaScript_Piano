@@ -3,11 +3,11 @@
 function makePiano(whichArray)
 {
     let naturalContainer = ce('div');
-    naturalContainer.style.height = '50px';
-    naturalContainer.style.border = 'solid 1px rgb(255, 255, 255)';
+    naturalContainer.style.height = '70px';
+    //naturalContainer.style.border = 'solid 1px rgb(255, 255, 255)';
     naturalContainer.style.position = 'absolute';
     naturalContainer.style.left = '0px';
-    naturalContainer.style.bottom = '-250px';
+    naturalContainer.style.bottom = '-269px';
     naturalContainer.style.display = 'flex';
     naturalContainer.style.flexDirection = 'row';
     naturalContainer.style.overflowX = 'scroll';
@@ -17,7 +17,7 @@ function makePiano(whichArray)
 
     let sharpContainer = ce('div');
     sharpContainer.style.height = '50px';
-    sharpContainer.style.border = 'solid 1px rgb(255, 255, 255)';
+    //sharpContainer.style.border = 'solid 1px rgb(255, 255, 255)';
     sharpContainer.style.position = 'absolute';
     sharpContainer.style.left = '0px';
     sharpContainer.style.bottom = '-200px';
