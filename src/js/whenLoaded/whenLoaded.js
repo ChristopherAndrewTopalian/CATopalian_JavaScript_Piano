@@ -5,6 +5,8 @@ function whenLoaded()
     loadSounds(sounds);
     loadSounds(notes);
 
+    ba(makeTitleOfApp());
+
     makeAOOPlayContainer();
 
     makeRightContainer();
@@ -184,16 +186,12 @@ function whenLoaded()
     makeNotes('octave3', notes, 20, 340, 3);
     makeNotes('octave2', notes, 20, 340, 2);
     makeNotes('octave1', notes, 20, 340, 1);
-
-    //-//
-
-    makeTitleOfApp();
 }
 
 //----//
 
 // Dedicated to God the Father
-// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026
 // https://github.com/ChristopherTopalian
 // https://github.com/ChristopherAndrewTopalian
 // https://sites.google.com/view/CollegeOfScripting

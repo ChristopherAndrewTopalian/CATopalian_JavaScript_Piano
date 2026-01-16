@@ -2,15 +2,6 @@
 
 function makeTitleOfApp()
 {
-    let titleContainer = ce('div');
-    titleContainer.style.position = 'absolute';
-    titleContainer.style.right = '7px';
-    titleContainer.style.top = '4px';
-    titleContainer.style.zIndex = 1;
-    ba(titleContainer);
-
-    //-//
-
     let titleOfApp = ce('a');
     titleOfApp.id = 'titleOfApp';
     titleOfApp.textContent = 'CATopalian JavaScript Piano';
@@ -21,13 +12,13 @@ function makeTitleOfApp()
     titleOfApp.style.textDecoration = 'none';
     titleOfApp.style.fontFamily = 'Arial';
     titleOfApp.style.color = 'rgb(0, 255, 255)';
-    titleContainer.append(titleOfApp);
+    return titleOfApp;
 }
 
 //----//
 
 // Dedicated to God the Father
-// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026
 // https://github.com/ChristopherTopalian
 // https://github.com/ChristopherAndrewTopalian
 // https://sites.google.com/view/CollegeOfScripting
